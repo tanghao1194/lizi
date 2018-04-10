@@ -1,0 +1,376 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.yemianyi{
+	height: 28px;
+	background-color: #f0f0f0;
+	margin: 0 auto;
+}
+.yemianyi ul{
+	float: right;
+	font-size: 12px;
+	list-style: none;
+	color: #9e9e9e;
+	padding-right: 230px;
+}
+.yemianyi ul li{
+	float: left;
+	padding-right: 25px;
+	line-height:28px;
+}
+.yemianer{
+	width: 100%;
+	height: 100px;
+}
+.yemianer p a{
+	display: block;
+    width: 142px;
+    height: 0;
+    float: left;
+    padding-top: 54px;
+    background: url(http://s02.lizi.com/images/pc/logo-08.png) no-repeat;
+    overflow: hidden;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+.input{
+	width: 474px;
+	height: 40px;
+	margin: 0 auto;
+	float: left;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-left: 150px;
+}
+.input input{
+	width: 350px;
+	height: 36px;
+	float: left;
+	padding-left: 10px;
+	border: 2px solid red;
+	font-size: 12px;
+	color: gray;
+	outline: 0;
+}
+.input a{
+	width: 110px;
+ 	height: 40px;
+ 	text-decoration: none;
+ 	background: red;
+ 	color: #fff7f7;
+ 	float: left;
+ 	text-align: center;
+ 	line-height: 40px;
+}
+.resoubang ul{
+	list-style: none;
+	float: left;
+	overflow: hidden;
+	font-size: 12px;
+	color:gray;
+	padding-left: 150px;
+	padding-top: 10px;
+}
+.resoubang ul li{
+	float: left;
+	padding-right: 20px;
+}
+.button{
+	padding-top: 20px;
+	padding-left: 1180px;
+}
+.button .button1{
+	width: 123px;
+	height: 34px;
+	color:gray ;
+	text-align: center;
+	border: 1px solid #ddd;
+	background: white;
+	outline: 0;
+}
+.yemiansan{
+	width: 100%;
+	height: 50px;
+	background: #34495e;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+}
+.yemiansan ul{
+	list-style: none;
+	padding-left: 230px;
+}
+.yemiansan ul li{
+	float: left;
+	overflow: hidden;
+}
+.yemiansan .diyige{
+	width: 200px;
+	background-color: #ff666b;
+	font-weight: bold;
+}
+.yemiansan .dierge{
+	width: 138px;
+}
+.yemiansan .disange{
+	width: 136px;
+}
+.yemiansi{
+	height: 400px;
+	width: 100%;
+	background: gray;
+}
+.yemianwu{
+	width: 100%;
+	background: #f5f5f5;
+	text-align: center;
+}
+.yemianwu img{
+	padding-bottom: 15px;
+	padding-top: 35px;
+}
+.yemianliu{
+	height: 3800px;
+	margin: 0 auto;
+	background: #f5f5f5;
+}
+.yemianliu .header{
+	width: 1180px;
+	margin: 0 auto;
+	text-align: right;
+	height: 50px;
+	line-height: 50px;
+	padding: 10px 0;
+	overflow: hidden;
+	background: url(http://s02.lizi.com/images/pc/60s-hd2.png) 5px 15px no-repeat;
+	position: relative;
+}
+.yemianliu .body{
+	width: 1200px;
+	margin: 0 auto;
+}
+.yemianliu .tupianyi{
+	float: left;
+	width: 386px;
+	height: 420px;
+	margin-right: 21px;
+	background: white;
+}
+.yemianliu .tupianyi img{
+	padding-left: 48px;
+}
+.yemianliu .tupianyi-r img{
+	padding-left: 48px;
+}
+.yemianliu .tupianyi-r{
+	float: left;
+	width: 380px;
+	height: 420px;
+	background: white;
+}
+.yemianliu .title{
+	padding: 0 30px;
+	text-align: left;
+	font-size: 14px;
+}
+.yemianliu .tag{
+	margin-right: 10px;
+	padding: 2px 10px;
+	border: 1px solid red;
+	border-radius: 3px;
+	font-size: 12px;
+	color: red;
+}
+.yemianliu .now{
+	padding: 20px 0 0 30px;
+	width: 200px;
+	text-align: center;
+	font-size: 26px;
+	color:#ff666b;
+	font-family: arial;
+	font-weight: 700;
+}
+.yemianliu .old{
+	width: 200px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	padding-left: 30px;
+	text-decoration: line-through;
+}
+.yemianliu  button{
+	width: 118px;
+	height: 40px;
+	text-align: center;
+	border: none;
+	font-size: 14px;
+	background-color: #ff666b;
+	color: white;
+	font-size: 14px;
+	position: relative;
+	left: 240px;
+	bottom: 45px;
+}
+.yemianliu .tupianer{
+	line-height: 70px;
+	padding-top: 15px;
+}
+.yemianliu .tupianer-l{
+	padding-right: 20px;
+	font-weight: 700;
+	font-size: 30px;
+	color: #34495e;
+}
+.yemianliu .tupianer-r{
+	color: gray;
+}
+.yemianliu .bianju{
+	padding: 0 10px 10px 0;
+}
+.yemianliu .bianjuyou{
+	padding-bottom: 10px;
+}
+.yemianliu .tupiansi{
+	padding-top:30px ;
+}
+.yemianliu .fenleituijian{
+	font-size: 30px;
+	padding-right: 20px;
+	font-weight: 700;
+	color: #34495e;
+}
+.yemianliu .xinlai{
+	color: gray;
+}
+.yemianliu .huazhuang{
+	padding-top: 25px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #cccccc;
+}
+.yemianliu .huazhuangshui{
+	font-size: 20px;
+	padding-right: 10px;
+	font-weight: 700;
+	color: #34495e;
+}
+.yemianliu .shuangfushui{
+	font-size: 12px;
+}
+.yemianliu .riben{
+	
+}
+.yemianliu .riben ul{
+	padding-top: 20px;
+}
+.yemianliu .riben ul li{
+	display: block;
+	width: 280px;
+	height: 390px;
+	background-color: white;
+	list-style: none;
+	float: left;
+	overflow: hidden;
+	
+}
+.yemianliu .chanpin{
+	margin: 0 20px 20px 0;
+}
+.yemianliu .chanpinyou{
+	margin: 0 20px 20px 0;
+}
+.yemianliu .chanpin img{
+	padding: 15px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.yemianliu .chanpinyou img{
+	padding: 15px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.yemianliu .labo{
+	font-size: 14px;
+	padding: 10px 15px 15px 10px
+}
+.yemianliu .jiage{
+	padding-left:10px;
+	color:#ff666b;
+	font-weight: 700;
+}
+.yemianqi{
+	height: 280px;
+	background: url(http://s02.lizi.com/images/pc/index-footer-search-bg.jpg) center 0 no-repeat;
+	border-bottom:3px solid  #ff666b;
+	margin: 0 auto;
+}
+.yemianqi .title{
+	color: white;
+	text-align: center;
+	font-size: 16px;
+	padding: 30px 0 22px 0;
+}
+.yemianqi .shurukuang{
+	width: 504px;
+	margin: auto;
+	
+}
+.yemianqi input{
+	width: 504px;
+	height: 28px;
+	line-height: 28px;
+	border-radius: 50px;
+	background-color: transparent;
+	border: 1px solid #666666;
+	padding-left: 10px;
+	color: gray;
+	outline: none;
+}
+.yemianqi .xiaobiaoti{
+	font-size: 12px;
+	color: gray;
+	padding: 10px 0 0 10px;
+}
+.yemianqi .one{
+	padding-left: 13px;
+}
+.yemianba{
+	height: 2 00px;
+	background: url(//s01.lizi.com/images/pc/footer-bg.jpg) center 0 #32475c;
+	padding:40px 0 40px 200px ;
+	color: white;
+	font-size: 12px;
+	line-height: 28px;
+	position: relative;
+}
+.yemianba p{
+	width: 650px;
+	
+}
+.yemianba .tupian img{
+	padding: 30px 20px 0 0;
+}
+.yemianba .erweima{
+	margin: auto;
+	float: right;
+	overflow: hidden;
+	width: 140px;
+	height: 140px;
+	text-align: center;
+	position: relative;
+	bottom: 160px;
+	right: 440px;
+	font-size: 14px;
+}
+.yemianba .shouji{
+	margin: auto;
+	float: right;
+	overflow: hidden;
+	width: 140px;
+	height: 160px;
+	right: 40px;
+	top: 10px;
+	text-align: center;
+	position: relative;
+	right: 100px;
+	top: -160px;
+	font-size: 14px;
+}

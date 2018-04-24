@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	background: #222;
+	height: 57px;
+}
+.head .bd{
+	width: 1000px;
+	margin: 0 auto;
+}
+.head .logo a{
+	display: block;
+	float: left;
+	width: 182px;
+	height: 0;
+	padding-top: 68px;
+	margin-right: 10px;
+	overflow: hidden;
+	background: url(//s01.lizi.com/www/images/login-logo.png) center 0 no-repeat #ff666b;
+}
+.head .shouye{
+	display: block;
+	float: left;
+	width: 310px;
+	height: 57px;
+	width: 80px;
+	line-height: 57px;
+	text-align: center;
+	overflow: hidden;
+}
+.head .shouye:hover{
+	background-color:#444444 ;
+}
+.head .shouye a{
+	color: white;
+	font-size: 12px;
+}
+.head .zaixian{
+	float: right;
+	font-size: 12px;
+	line-height: 57px;
+	width: 80px;
+	height: 57px;
+	color: white;
+	text-align: center;
+	
+	}
+.head .zaixian:hover{
+	background-color: #444444;
+}
+.head .tel{
+	float: right;
+	color: white;
+	font-size:12px;
+	line-height: 57px;
+}
+.main{
+	width: 1000px;
+	margin:30px auto 50px;
+	height: 450px;
+}
+.main .main-all .tupian {
+	float: left;
+	display: block;
+	width: 500px;
+	height: 450px;
+	overflow: hidden;
+}
+.main .main-all .shurukuang{
+	width: 380px;
+	height: 450px;
+	float: right;
+	border: 1px solid #cccccc;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 15px 30px;
+}
+.main .shurukuang .neirong {
+	padding-bottom: 20px;
+}
+.main .shurukuang .neirong .denglu{
+	font-size: 18px;
+	color: #34495e;
+}
+.main .shurukuang .neirong .zhuce{
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+	 color: #34495e;;
+}
+.main .shurukuang .neirong .zhuce a{
+	color: #34495e;
+	text-decoration: underline;
+}
+.main .shuru ul{
+	list-style: none;
+}
+.main .shuru .text-input{
+	border: 1px solid #cccccc;
+	padding: 6px;
+	line-height: 18px;
+	margin-bottom: 24px;
+}
+
+.main .shuru .text-input .text{
+	padding: 4px 6px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	overflow: hidden;
+	border: none;
+	vertical-align: middle;
+	color: #dbd0cc;
+	box-shadow: none;
+	margin-left: 2px;
+	outline: none;
+}
+.main .shuru .text-input-l{
+	padding-bottom: 30px;
+}
+.main .shuru .text-input-l .text-a{
+	width: 80px;
+	height: 30px;
+	border: 1px solid #CCCCCC;
+	padding: 4px 16px;
+	outline: none;
+	color: #dbd0cc;
+	vertical-align: middle;
+	font-size: 12px;
+	line-height: 18px;
+}
+.main .shuru .text-input-l button{
+	width: 120px;
+	float: right;
+	height: 38px;
+	color: #666666;
+	background-color: #f5f5f5;
+	outline: none;
+	font-size: 12px;
+	border: 1px solid #dedede;
+	border-radius:2px ;
+}
+.main .shuru .text-input-l button:hover{
+	background-color: #eeeeee;
+}
+.main .shuru .yuedu{
+	font-size: 12px;
+	padding-bottom: 15px;
+	color: #34495e;
+}
+.main .shuru .yuedu a{
+	color: #00b5ff;
+}
+.main .shuru .other{
+	text-align: right;
+}
+.main .shuru .other a{
+	text-decoration: underline;
+	color: #333333;
+	font-size: 12px;	
+}
+.main .shuru .last{
+	margin-top: 10px;
+}
+.main .shuru .last .btn{
+	height: 65px;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 18px;
+	border: none;
+	border-radius: 2px;
+	background-color: #ff666b;
+	padding: 0 18px;
+	outline: none;
+}
+.main .shuru .last .btn:hover{
+	background-color: #f66368;
+}
+.main .shurukuang .qqone .disanfang{
+	margin-top: 40px;
+	padding-bottom: 10px;
+	color: #999999;
+}
+.footer{
+	height: 180px;
+	background: url(//s01.lizi.com/images/pc/footer-bg.jpg) center 0 #32475c;
+	padding: 30px 0;
+	border-top: 3px solid #FF666B;
+	
+}
+.footer .ft-main{
+	width: 1200px;
+	margin: 0 auto;
+	color: white;
+	position: relative;
+	font-size: 12px;
+}
+.footer .ft-nav{
+	height: 22px;
+
+}
+.footer .ft-nav a:hover{
+	text-decoration: underline;
+}
+.footer  a{
+	color: #FFFFFF;
+	
+}
+.footer .ft-txt p{
+	padding: 5px 0;
+}
+.footer .ft-txt  .font-contant span{
+	margin-right: 10px;
+	padding-bottom: 20px;
+}
+.footer .flink a:hover{
+	text-decoration: underline;
+}
+.footer .ft-main .ft-contant a:hover{
+	text-decoration: underline;
+}
+.footer .ft-main  .icott {
+	padding-top: 20px;
+}
+.footer .ft-main  .icott a{
+	margin-right: 15px;
+}
+.footer .ft-main  .icott img{
+	width: 108px;
+	height: 40px;
+	border-radius: 2px;
+}
+
+.footer .fsm{
+	font-size: 14px;
+	position: absolute;
+	right: 40px;
+	top: 10px;
+	width: 140px;
+	text-align: center;
+}
+.footer .fsm2{
+	right: 240px;
+}

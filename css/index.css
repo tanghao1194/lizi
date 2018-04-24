@@ -2,104 +2,126 @@
 	margin: 0;
 	padding: 0;
 }
+a{
+	text-decoration: none;
+	}
 .yemianyi{
 	height: 28px;
 	background-color: #f0f0f0;
+	position: relative;
+	
+}
+.yemianyi .one{
+	width: 1180px;
 	margin: 0 auto;
+	
 }
 .yemianyi ul{
-	float: right;
+	float:right;
 	font-size: 12px;
 	list-style: none;
 	color: #9e9e9e;
-	padding-right: 230px;
+	
 }
 .yemianyi ul li{
-	float: left;
+	float:left;
 	padding-right: 25px;
 	line-height:28px;
+	position: relative;
+	
+}
+.yemianyi .iconfont {
+	font-size: 12px;
 }
 .yemianer{
-	width: 100%;
+	width: 1180px;
 	height: 100px;
+	margin: auto;
+	
 }
 .yemianer p a{
-	display: block;
+    display: block;
     width: 142px;
     height: 0;
     float: left;
     padding-top: 54px;
+    margin-top: 16px;
+    margin-left: 23px;
     background: url(http://s02.lizi.com/images/pc/logo-08.png) no-repeat;
     overflow: hidden;
-    margin-left: 230px;
-    margin-top: 20px;
 }
-.input{
-	width: 474px;
-	height: 40px;
-	margin: 0 auto;
+.yemianer .search{
+	display: block;
 	float: left;
-	overflow: hidden;
-	padding-top: 20px;
-	padding-left: 150px;
-}
-.input input{
-	width: 350px;
+	width: 510px;
 	height: 36px;
-	float: left;
-	padding-left: 10px;
-	border: 2px solid red;
-	font-size: 12px;
-	color: gray;
-	outline: 0;
-}
-.input a{
-	width: 110px;
- 	height: 40px;
- 	text-decoration: none;
- 	background: red;
- 	color: #fff7f7;
- 	float: left;
- 	text-align: center;
- 	line-height: 40px;
-}
-.resoubang ul{
-	list-style: none;
-	float: left;
+	border: 2px solid #FF666B;
+	margin-left: 200px;
+	margin-top: 16px;
 	overflow: hidden;
-	font-size: 12px;
-	color:gray;
-	padding-left: 150px;
-	padding-top: 10px;
+	position: relative;
 }
-.resoubang ul li{
+.yemianer .input1{
 	float: left;
+	width: 364px;
+	line-height: 36px;
+	color: #9E9E9E;
+	font-size: 12px;
+	padding-left: 10px;
+	border: none;
+	outline: none;
+	position: absolute;
+}
+.yemianer .button1{
+	float: right;
+	width: 130px;
+	height: 36px;
+	border: none;
+	background: #FF666B;
+	color: white;
+	font-weight: 600;
+	outline: none;
+}
+.yemianer .resoubang{
+	color: gray;
+	font-size: 12px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 200px;
+	
+}
+.yemianer .resoubang a{
+	color: gray;
+	text-decoration: none;
 	padding-right: 20px;
 }
-.button{
-	padding-top: 20px;
-	padding-left: 1180px;
+.yemianer .resoubang a:hover{
+	color: #FF666B;
+	text-decoration: underline;
 }
-.button .button1{
-	width: 123px;
-	height: 34px;
-	color:gray ;
-	text-align: center;
-	border: 1px solid #ddd;
-	background: white;
+.yemianer .button2{
+	width: 125px;
+	height: 35px;
+	border: 1px solid #f0f0f0;
+	background-color: white;
+	font-size: 14px;
+	color: gray;
+	position: absolute;
+	top: 48px;
+	right:200px;
 	outline: 0;
 }
 .yemiansan{
-	width: 100%;
-	height: 50px;
+	font-size: 14px;
+	height: 42px;
 	background: #34495e;
 	text-align: center;
-	line-height: 50px;
+	line-height: 42px;
 	color: white;
 }
 .yemiansan ul{
 	list-style: none;
-	padding-left: 230px;
+	padding-left: 170px;
 }
 .yemiansan ul li{
 	float: left;
@@ -113,13 +135,27 @@
 .yemiansan .dierge{
 	width: 138px;
 }
+.yemiansan .dierge:hover{
+	background-color: #2c3e50;
+}
 .yemiansan .disange{
 	width: 136px;
 }
-.yemiansi{
+.yemiansan .disange:hover{
+	background-color: #2c3e50;
+}
+.yemiansi {
 	height: 400px;
 	width: 100%;
-	background: gray;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+.yemiansi img{
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	height: 200px;
 }
 .yemianwu{
 	width: 100%;
@@ -146,22 +182,25 @@
 	background: url(http://s02.lizi.com/images/pc/60s-hd2.png) 5px 15px no-repeat;
 	position: relative;
 }
+.yemianliu .60miao{
+	color: #ff666b;
+}
 .yemianliu .body{
-	width: 1200px;
+	width: 1180px;
 	margin: 0 auto;
 }
 .yemianliu .tupianyi{
 	float: left;
-	width: 386px;
+	width: 380px;
 	height: 420px;
-	margin-right: 21px;
+	margin-right: 20px;
 	background: white;
 }
 .yemianliu .tupianyi img{
-	padding-left: 48px;
+	padding-left: 45px;
 }
 .yemianliu .tupianyi-r img{
-	padding-left: 48px;
+	padding-left: 45px;
 }
 .yemianliu .tupianyi-r{
 	float: left;
@@ -170,6 +209,7 @@
 	background: white;
 }
 .yemianliu .title{
+	color: #34495E;
 	padding: 0 30px;
 	text-align: left;
 	font-size: 14px;
@@ -177,10 +217,10 @@
 .yemianliu .tag{
 	margin-right: 10px;
 	padding: 2px 10px;
-	border: 1px solid red;
+	border: 1px solid #ff666b;
 	border-radius: 3px;
 	font-size: 12px;
-	color: red;
+	color: #ff666b;
 }
 .yemianliu .now{
 	padding: 20px 0 0 30px;
@@ -217,6 +257,8 @@
 	padding-top: 15px;
 }
 .yemianliu .tupianer-l{
+	display: inline-block;
+	margin-top: 30px;
 	padding-right: 20px;
 	font-weight: 700;
 	font-size: 30px;
@@ -225,11 +267,16 @@
 .yemianliu .tupianer-r{
 	color: gray;
 }
-.yemianliu .bianju{
-	padding: 0 10px 10px 0;
+.yemianliu .body .tupiansan img{
+	width: 580px;
+	height: 386px;
+	border-radius:2px;
 }
-.yemianliu .bianjuyou{
-	padding-bottom: 10px;
+.yemianliu .body .tupiansan .bian{
+	padding: 0 15px 15px 0;
+}
+.yemianliu .body .tupiansan .bian2{
+	padding-bottom: 15px;
 }
 .yemianliu .tupiansi{
 	padding-top:30px ;
@@ -248,17 +295,24 @@
 	padding-bottom: 5px;
 	border-bottom: 1px solid #cccccc;
 }
+
 .yemianliu .huazhuangshui{
 	font-size: 20px;
 	padding-right: 10px;
 	font-weight: 700;
 	color: #34495e;
 }
+.yemianliu .huazhuangshui:hover{
+	text-decoration: underline;
+	color: #FF666B;
+}
 .yemianliu .shuangfushui{
 	font-size: 12px;
+	margin-right: 10px;
 }
-.yemianliu .riben{
-	
+.yemianliu .shuangfushui:hover{
+	text-decoration: underline;
+	color: #FF666B;
 }
 .yemianliu .riben ul{
 	padding-top: 20px;
@@ -271,14 +325,21 @@
 	list-style: none;
 	float: left;
 	overflow: hidden;
-	
+
 }
+
 .yemianliu .chanpin{
 	margin: 0 20px 20px 0;
 }
-.yemianliu .chanpinyou{
-	margin: 0 20px 20px 0;
+.yemianliu .chanpin:hover{
+	box-shadow:-2px 2px 2px -2px #d2d2d2;
 }
+.yemianliu .chanpinyou{
+	margin-bottom:20px;
+}
+.yemianliu .chanpinyou:hover{
+	box-shadow:-2px 2px 2px -2px #d2d2d2;
+	}
 .yemianliu .chanpin img{
 	padding: 15px;
 	border-bottom: 1px solid #f0f0f0;
@@ -287,90 +348,90 @@
 	padding: 15px;
 	border-bottom: 1px solid #f0f0f0;
 }
-.yemianliu .labo{
+.yemianliu .riben ul li .labo{
 	font-size: 14px;
-	padding: 10px 15px 15px 10px
+	color: red;
+	padding: 10px 15px 15px 10px;
 }
-.yemianliu .jiage{
+
+.yemianliu  .jiage{
+	padding:0 15px 0 10px ;
+}
+.yemianliu .jiage .price{
+	float: left
 	padding-left:10px;
 	color:#ff666b;
 	font-weight: 700;
 }
+.yemianliu .jiage .sales{
+	float: right;
+	color: gray;
+	font-weight: 400;
+	font-size: 10px;
+}
 .yemianqi{
 	height: 280px;
 	background: url(http://s02.lizi.com/images/pc/index-footer-search-bg.jpg) center 0 no-repeat;
-	border-bottom:3px solid  #ff666b;
 	margin: 0 auto;
 }
-.yemianqi .title{
-	color: white;
-	text-align: center;
-	font-size: 16px;
-	padding: 30px 0 22px 0;
-}
-.yemianqi .shurukuang{
-	width: 504px;
-	margin: auto;
-	
-}
-.yemianqi input{
-	width: 504px;
-	height: 28px;
-	line-height: 28px;
-	border-radius: 50px;
-	background-color: transparent;
-	border: 1px solid #666666;
-	padding-left: 10px;
-	color: gray;
-	outline: none;
-}
-.yemianqi .xiaobiaoti{
-	font-size: 12px;
-	color: gray;
-	padding: 10px 0 0 10px;
-}
-.yemianqi .one{
-	padding-left: 13px;
-}
-.yemianba{
-	height: 2 00px;
+
+.footer{
+	height: 180px;
 	background: url(//s01.lizi.com/images/pc/footer-bg.jpg) center 0 #32475c;
-	padding:40px 0 40px 200px ;
+	padding: 30px 0;
+	border-top: 3px solid #FF666B;
+}
+.footer .ft-main{
+	width: 1200px;
+	margin: 0 auto;
 	color: white;
+	position: relative;
 	font-size: 12px;
-	line-height: 28px;
-	position: relative;
 }
-.yemianba p{
-	width: 650px;
-	
+.footer .ft-nav{
+	height: 22px;
 }
-.yemianba .tupian img{
-	padding: 30px 20px 0 0;
+.footer .ft-nav a:hover{
+	text-decoration: underline;
 }
-.yemianba .erweima{
-	margin: auto;
-	float: right;
-	overflow: hidden;
-	width: 140px;
-	height: 140px;
-	text-align: center;
-	position: relative;
-	bottom: 160px;
-	right: 440px;
+.footer  a{
+	color: #FFFFFF;
+}
+.footer .ft-txt p{
+	padding: 5px 0;
+}
+.footer .ft-txt  .font-contant span{
+	margin-right: 10px;
+	padding-bottom: 20px;
+}
+.footer .flink a:hover{
+	text-decoration: underline;
+}
+.footer .ft-main .ft-contant a:hover{
+	text-decoration: underline;
+}
+.footer .ft-main  .icott {
+	padding-top: 20px;
+}
+.footer .ft-main  .icott a{
+	margin-right: 15px;
+}
+.footer .ft-main  .icott img{
+	width: 108px;
+	height: 40px;
+	border-radius: 2px;
+}
+
+.footer .fsm{
 	font-size: 14px;
-}
-.yemianba .shouji{
-	margin: auto;
-	float: right;
-	overflow: hidden;
-	width: 140px;
-	height: 160px;
+	position: absolute;
 	right: 40px;
 	top: 10px;
+	width: 140px;
 	text-align: center;
-	position: relative;
-	right: 100px;
-	top: -160px;
-	font-size: 14px;
 }
+.footer .fsm2{
+	right: 240px;
+}
+
+.chanpin #labo {color:red;}

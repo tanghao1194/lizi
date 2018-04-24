@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	}
+.yemianyi{
+	height: 28px;
+	background-color: #f0f0f0;
+	position: relative;
+	
+}
+.yemianyi .one{
+	width: 1180px;
+	margin: 0 auto;
+	
+}
+.yemianyi ul{
+	float:right;
+	font-size: 12px;
+	list-style: none;
+	color: #9e9e9e;
+	
+}
+.yemianyi ul li{
+	float:left;
+	padding-right: 25px;
+	line-height:28px;
+	position: relative;
+	
+}
+.yemianyi .iconfont {
+	font-size: 12px;
+}
+.yemianer{
+	width: 1180px;
+	height: 100px;
+	margin: auto;
+	
+}
+.yemianer p a{
+    display: block;
+    width: 142px;
+    height: 0;
+    float: left;
+    padding-top: 54px;
+    margin-top: 16px;
+    margin-left: 23px;
+    background: url(http://s02.lizi.com/images/pc/logo-08.png) no-repeat;
+    overflow: hidden;
+}
+.yemianer .search{
+	display: block;
+	float: left;
+	width: 510px;
+	height: 36px;
+	border: 2px solid #FF666B;
+	margin-left: 200px;
+	margin-top: 16px;
+	overflow: hidden;
+	position: relative;
+}
+.yemianer .input1{
+	float: left;
+	width: 364px;
+	line-height: 36px;
+	color: #9E9E9E;
+	font-size: 12px;
+	padding-left: 10px;
+	border: none;
+	outline: none;
+	position: absolute;
+}
+.yemianer .button1{
+	float: right;
+	width: 130px;
+	height: 36px;
+	border: none;
+	background: #FF666B;
+	color: white;
+	font-weight: 600;
+	outline: none;
+}
+.yemianer .resoubang{
+	color: gray;
+	font-size: 12px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 200px;
+	
+}
+.yemianer .resoubang a{
+	color: gray;
+	text-decoration: none;
+	padding-right: 20px;
+}
+.yemianer .resoubang a:hover{
+	color: #FF666B;
+	text-decoration: underline;
+}
+.yemianer .button2{
+	width: 125px;
+	height: 35px;
+	border: 1px solid #f0f0f0;
+	background-color: white;
+	font-size: 14px;
+	color: gray;
+	position: absolute;
+	top: 48px;
+	right:200px;
+	outline: 0;
+}
+.yemiansan{
+	font-size: 14px;
+	height: 42px;
+	background: #34495e;
+	text-align: center;
+	line-height: 42px;
+	color: white;
+}
+.yemiansan ul{
+	list-style: none;
+	padding-left: 170px;
+}
+.yemiansan ul li{
+	float: left;
+	overflow: hidden;
+}
+.yemiansan .diyige{
+	width: 200px;
+	background-color: #ff666b;
+	font-weight: bold;
+}
+.yemiansan .dierge{
+	width: 138px;
+}
+.yemiansan .dierge:hover{
+	background-color: #2c3e50;
+}
+.yemiansan .disange{
+	width: 136px;
+}
+.yemiansan .disange:hover{
+	background-color: #2c3e50;
+}
+.main{
+	width: 100%;
+	height: 3000px;
+	background-color: #fafafa;
+}
+.main .main-a{
+	width: 1180px;
+	margin:0 auto 80px;
+	padding:10px 0;
+	
+}
+.main .main-a a{
+	font-size: 12px;
+	color: #34495e;
+}
+.main .main-a .shouye{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f3f3f3;
+}
+.main .main-a a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.main .sige ul{
+	list-style:none ;
+	background-color: #FFFFFF;
+}
+.main .sige ul li{
+	border:  1px solid #f3f3f3;
+	border-top: 0;
+	height: 43px;
+	line-height: 43px;
+}
+.main .sige .tou{
+	padding-left: 20px;
+	padding-right: 30px;
+	color: #34495e;
+	font-size: 14px;
+}
+.main .sige .neirong{
+	display: inline-block;
+	font-size: 12px;
+	color: #666666;
+	width: 240px;
+}
+.main .sige .gengduo{
+	float: right;
+	font-size: 12px;
+	color: #666666;
+	padding-right: 30px;
+}
+.main .sige .gengduo .duo:hover{
+	color: #FF666B;
+}
+.main .sige .iconfont{
+	font-size: 12px;
+}
+.main .xiaoliang{
+	padding: 10px;
+	font-size: 12px;
+}
+.main .xiaoliang .liang{
+	color: #FF666B;
+	border-bottom: 2px solid #FF666B;
+}
+.main .xiaoliang .iconfont{
+	color: black;
+	padding: 0 10px;
+}
+.main .xiaoliang .renqi:hover{
+	color: #FF666B;
+	border-bottom: 2px solid #FF666B;
+}
+.main .chanpin ul{
+	list-style: none;
+}
+.main .chanpin ul li{
+	float: left;
+	width: 197px;
+	height: 273px;
+	border: 1px solid #EEEEEE;
+	margin: 0 21px 21px 0;
+	padding: 10px;
+	box-shadow: 0 0 1px 0 #eee;
+	background: #fff;
+	font-size: 14px;
+	}
+.main .chanpin .a23{
+	margin: 0 0 21px 0;
+}
+.main .chanpin ul li:hover{
+	border: 1px solid #FF666B;
+}
+.main .chanpin ul li img{
+	width: 190px;
+	height: 190px;
+	margin: 0 auto;
+}
+.main .chanpin .mianmo{
+	color: #FF666B;
+}
+.main .chanpin .jieshao{
+	padding-bottom: 20px;
+}
+.main .chanpin .jiage{
+	color: #FF666B;
+}
+.main .chanpin .maichu{
+	float: right;
+	color: #999999;
+	font-size: 12px;
+}
+.footer{
+	height: 180px;
+	background: url(//s01.lizi.com/images/pc/footer-bg.jpg) center 0 #32475c;
+	padding: 30px 0;
+	border-top: 3px solid #FF666B;
+}
+.footer .ft-main{
+	width: 1200px;
+	margin: 0 auto;
+	color: white;
+	position: relative;
+	font-size: 12px;
+}
+.footer .ft-nav{
+	height: 22px;
+
+}
+.footer .ft-nav a:hover{
+	text-decoration: underline;
+}
+.footer  a{
+	color: #FFFFFF;
+	
+}
+.footer .ft-txt p{
+	padding: 5px 0;
+}
+.footer .ft-txt  .font-contant span{
+	margin-right: 10px;
+	padding-bottom: 20px;
+}
+.footer .flink a:hover{
+	text-decoration: underline;
+}
+.footer .ft-main .ft-contant a:hover{
+	text-decoration: underline;
+}
+.footer .ft-main  .icott {
+	padding-top: 20px;
+}
+.footer .ft-main  .icott a{
+	margin-right: 15px;
+}
+.footer .ft-main  .icott img{
+	width: 108px;
+	height: 40px;
+	border-radius: 2px;
+}
+
+.footer .fsm{
+	font-size: 14px;
+	position: absolute;
+	right: 40px;
+	top: 10px;
+	width: 140px;
+	text-align: center;
+}
+.footer .fsm2{
+	right: 240px;
+}
